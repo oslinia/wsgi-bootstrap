@@ -7,8 +7,8 @@ from typing import Any
 from zoneinfo import ZoneInfo
 
 from . import StartResponse, Environment, Application
-from .http.process import Head, Media, Response
-from .http.process.response import Http
+from .http.call import Head, Media, Response
+from .http.call.response import Http
 from .resource import cache, init
 from ..utils import utc
 
